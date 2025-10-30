@@ -12,7 +12,6 @@ A modern and responsive **Flutter** application that displays real-time weather 
 - 🌅 Sunrise and sunset visualization
 - 🕓 Hourly forecast with dynamic weather icons
 - 🎨 Dynamic background that changes between day and night
-- 🌙 Fully supports Dark Theme
 
 ---
 
