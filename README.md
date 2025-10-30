@@ -1,16 +1,71 @@
-# weather_app
+# 🌦️ Weather App
 
-A new Flutter project.
+A modern and responsive **Flutter** application that displays real-time weather information with a beautiful and intuitive user interface.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔍 Search for any city to get live weather data
+- 🌡️ Display current temperature, high and low values
+- ☁️ Detailed weather info: humidity, pressure, wind, and visibility
+- 🌅 Sunrise and sunset visualization
+- 🕓 Hourly forecast with dynamic weather icons
+- 🎨 Dynamic background that changes between day and night
+- 🌙 Fully supports Dark Theme
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧩 Technologies Used
+
+| Technology       | Purpose                         |
+|------------------|---------------------------------|
+| **Flutter**      | Cross-platform app development  |
+| **Dart**         | Programming language            |
+| **HTTP package** | API requests                    |
+| **Provider**     | State management                |
+| **ScreenUtil**   | Responsive UI design            |
+| **WeatherAPI**   | Fetching real-time weather data |
+
+---
+
+## 🖼️ Screenshots
+
+## 🌤️ Weather App Screens
+
+| ☀️ Sunny                                        | 🌙 Night                                          | ☁️ Cloudy                                          | 🌧️ Rainy                                        |
+|-------------------------------------------------|---------------------------------------------------|----------------------------------------------------|--------------------------------------------------|
+| <img src="assets/screens/sun.png" width="220"/> | <img src="assets/screens/night.png" width="220"/> | <img src="assets/screens/cloudy.png" width="220"/> | <img src="assets/screens/rain.png" width="220"/> |
+
+---
+
+## 🧭 Other Screens
+
+| 🔍 Search                                           | 📊 Details                                                |
+|-----------------------------------------------------|-----------------------------------------------------------|
+| <img src="assets/screens/weather.png" width="220"/> | <img src="assets/screens/light_details.png" width="220"/> |
+
+---
+
+## ⚙️ How to Run the App
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/HabibaTamer9/weather_app.git
+2. **Navigate to the project directory**
+   ```bash
+   cd weather_app
+3. **Install dependencies**
+   ```bash
+   flutter pub get
+4. **Install dependencies**
+   ```bash
+   flutter run
+   
+---
+
+## 🔑 Notes
+
+**Add your WeatherAPI key inside the API file:**
+  ```bash
+  const String apiKey = "YOUR_API_KEY_HERE";

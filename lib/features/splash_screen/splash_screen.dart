@@ -29,6 +29,11 @@ class _SplashScreenState extends State<SplashScreen>
                   ),
                 ));
       });
+    }else{
+      Future.delayed(Duration(seconds: 8), () {
+        Navigator.pushReplacement(
+            context, MaterialPageRoute(builder: (context) => Home()));
+      });
     }
   }
 
@@ -40,10 +45,6 @@ class _SplashScreenState extends State<SplashScreen>
       vsync: this,
       duration: const Duration(seconds: 5), // سرعة الدوران
     )..repeat();
-    Future.delayed(Duration(seconds: 8), () {
-      Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => Home()));
-    });
   }
 
   @override
